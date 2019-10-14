@@ -1,8 +1,8 @@
 % Implement algorithm scalar feature selection from S.Theodoridis,
 % K. Koutroumbas Pattern Recognition book edition 2009 page 283
-% with Fisher’s discriminant ratio ( FDR1 ) results from page 282 
-%with ?i as the mean value of the characteristic in the class ?i and ?i^2
-%the variance of this characteristic in the class ?i.
+% with Fisherâ€™s discriminant ratio ( FDR1 ) results from page 282 
+%with mi as the mean value of the characteristic in the class i and si^2
+%the variance of this characteristic in the class i.
 
 % This algorithm is implemented in order to choose the best characteristic
 % of the 7 features that distinguish the 3 classes with the most
