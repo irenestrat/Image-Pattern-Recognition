@@ -4,7 +4,7 @@
 % x is the feature matrix Nx7 dimension
 % N is the total number of feature elements
  
-function [r]= rij(x,N,i,j)
+function [r]= crossCorrelationCoefficient(x,N,i,j)
 tot1=0;
 tot2=0;
 tot3=0;
