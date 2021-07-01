@@ -5,7 +5,8 @@
  By using the same 50 images for training and the same 20 images for testing, we used K-NN model with 5 and 11 neighbors respectively we achieved correct classification rate up to 69.3% and 70.8%
 
 ```Matlab
-% x is the 5 dimension feature vectors of 50 images, y is the classes where these vectors are classified
+% x is the 5 dimension feature vectors of 50 images
+% y is the classes where these vectors are classified
 % xaraktnew is the 5 dimension feature vector of 20 images
 Md1=fitcknn(x, y, 'NumNeighbors', 11); 
 label=predict(Md1,xaraktnew);
